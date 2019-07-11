@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>RUN VAMPIRE RUN!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="vampRun.css" />
+</head>
+
+<body>
+    <div id="world">
+        <div id="gameoverInstructions">
+            Game Over
+        </div>
+        <div id="levels">
+            <div id="dist">
+                <div class="label">Ran</div>
+                <div class="distVal"><span id="distValue">000</span> m</div>
+            </div>
+            <div class="blood">
+                <div class="label">Blood</div>
+                <div id="Progress_Status">
+                    <div id="myprogressBar"></div>
+                </div>
+            </div>
+        </div>
+        <div id="enter">ENTER to play</div>
+        <div class="intro">
+            <div class="instructions">Press SPACE to jump/ replay</div>
+            <div>
+                <span class="lightInstructions"> Drink the blood<span class="garlic"> — Avoid the garlics</span></span>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/106/three.min.js" integrity="sha256-tAVw6WRAXc3td2Esrjd28l54s3P2y7CDFu1271mu5LE=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="Script/scene.js"></script>
+    <script src="Script/vampChar.js"></script>
+    <script src="Script/otherChars.js"></script>
+    <script src="Script/updatePositions.js"></script>
+    <script src="Script/functions.js"></script>
+    <script src="Script/main.js"></script>
+    <script src="Script/motion.js"></script>
+</body>
+
+</html>
