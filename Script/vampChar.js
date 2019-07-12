@@ -1,4 +1,4 @@
-Vampire = function() {
+var Vampire = function() {
     this.status = "running";
     this.runningCycle = 0;
 

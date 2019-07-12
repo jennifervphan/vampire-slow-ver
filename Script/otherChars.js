@@ -1,4 +1,4 @@
-Blood = function() {
+var Blood = function() {
     this.angle = 0;
     this.status = "ready";
     this.mesh = new THREE.Group();
@@ -18,7 +18,7 @@ function createBlood() {
 }
 
 
-Garlic = function() {
+var Garlic = function() {
     this.angle = 0;
     this.status = "ready";
 
@@ -88,7 +88,7 @@ function createGarlic() {
 }
 
 
-Cross = function() {
+var Cross = function() {
     // this.status = "running";
     this.runningCycle = 0;
     this.mesh = new THREE.Group();
