@@ -1,6 +1,6 @@
 Vampire.prototype.run = function() {
     this.status = "running";
-    var s = Math.min(speed, 50);
+    var s = Math.min(speed, 70);
     this.runningCycle += delta * s * .7;
     this.runningCycle = this.runningCycle % (pi * 2);
     var t = this.runningCycle;
@@ -51,7 +51,7 @@ Vampire.prototype.caught = function() {
 
 Cross.prototype.run = function() {
 
-    var s = Math.min(speed, 50);
+    var s = Math.min(speed, 70);
     this.runningCycle += delta * s * .7;
     this.runningCycle = this.runningCycle % (pi * 2);
     var t = this.runningCycle;
