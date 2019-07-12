@@ -19,7 +19,7 @@ function progressBarGetBlood() {
 }
 
 function progressBar() {
-    bloodBar -= 2;
+    bloodBar -= 1;
     element.style.width = (bloodBar) + '%';
     bloodBar = bloodBar;
     noBlood();
@@ -41,7 +41,7 @@ function hitGarlic() {
 function getBlood() {
     blood.angle -= pi / 2;
     speed += 4;
-    crossVampDist += .03;
+    crossVampDist += .01;
     progressBarGetBlood();
 }
 
